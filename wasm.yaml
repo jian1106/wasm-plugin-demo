@@ -1,0 +1,11 @@
+apiVersion: extensions.istio.io/v1alpha1
+kind: WasmPlugin
+metadata:
+  name: example
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: productpage
+  url: jian1106/wasm-demo:0.0.1
+  imagePullPolicy: IfNotPresent

@@ -1,0 +1,2 @@
+FROM istio/proxyv2:1.15.5
+ENTRYPOINT ["/bin/bash"]

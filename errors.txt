@@ -1,0 +1,7 @@
+2023-02-21T04:22:09.098282Z	info	wasm	fetching image jian1106/wasm-demo from registry index.docker.io with tag 0.0.1
+2023-02-21T04:22:11.821890Z	critical	envoy backtrace	Caught Segmentation fault, suspect faulting address 0x7f55ace41000
+2023-02-21T04:22:11.821931Z	critical	envoy backtrace	Backtrace (use tools/stack_decode.py to get line numbers):
+2023-02-21T04:22:11.821935Z	critical	envoy backtrace	Envoy version: aed172a7bd0b71db7121840c84b97855fb418381/1.23.4-dev/Clean/RELEASE/BoringSSL
+2023-02-21T04:22:11.828385Z	info	ads	ADS: "@" productpage-v1-66756cddfd-whs2c.default-1 terminated
+2023-02-21T04:22:11.828409Z	error	Envoy exited with error: signal: segmentation fault
+2023-02-21T04:22:11.828437Z	info	ads	ADS: "@" productpage-v1-66756cddfd-whs2c.default-2 terminated
